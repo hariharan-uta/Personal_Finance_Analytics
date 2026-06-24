@@ -4,6 +4,8 @@ A distributed analytics platform built on ClickHouse Cloud that analyzes
 874,772 synthetic personal finance transactions across 1,000 users, 10 US 
 cities, and 3 years (2022–2024).
 
+![Dashboard](dashboard.png)
+
 ## Project Overview
 
 This project explores distributed database design using ClickHouse Cloud — 
