@@ -52,11 +52,17 @@ interactive Grafana dashboard.
 ## Repository Structure
 
 ├── sql/
+
 │   ├── 01_schema.sql
+
 │   ├── 02_materialized_views.sql
+
 │   └── 03_analytics.sql
+
 ├── data/
+
 │   └── generate_data.py
+
 └── README.md
 
 ## Setup
