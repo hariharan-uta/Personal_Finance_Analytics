@@ -51,19 +51,19 @@ interactive Grafana dashboard.
 
 ## Repository Structure
 
+```
+personal-finance-analytics/
+│
 ├── sql/
-
-│   ├── 01_schema.sql
-
-│   ├── 02_materialized_views.sql
-
-│   └── 03_analytics.sql
-
+│   ├── 01_schema.sql              # Database and table creation
+│   ├── 02_materialized_views.sql  # Pre-aggregated MV definitions
+│   └── 03_analytics.sql           # Key analytical queries
+│
 ├── data/
-
-│   └── generate_data.py
-
+│   └── generate_data.py           # Synthetic dataset generator
+│
 └── README.md
+```
 
 ## Setup
 
